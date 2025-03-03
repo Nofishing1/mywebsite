@@ -6,6 +6,97 @@
     <title>Jordan Vanderburg Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: #e3f2fd;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #42a5f5, #1e88e5);
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background: #1e88e5;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #42a5f5;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #42a5f5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #1e88e5;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        a {
+            color: #42a5f5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img.project-image {
+            width: 100%;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        ul li {
+            margin: 0.5rem 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,7 +115,7 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a passionate IT professional with expertise in cybersecurity, Linux, and server management. I am dedicated to solving complex problems and ensuring secure, efficient systems. My goal is to contribute to innovative projects in the cybersecurity and IT industry.</p>
+        <p>I am a passionate IT professional with expertise in cybersecurity, Linux, and server management. I have hands-on experience working with tools like Wazuh and have built my own home lab to explore and test various IT solutions. I am dedicated to solving complex problems and ensuring secure, efficient systems. My goal is to contribute to innovative projects in the cybersecurity and IT industry.</p>
         <img src="assets/images/about-me.jpg" alt="About Me" class="project-image">
     </section>
 
@@ -32,14 +123,14 @@
         <h2>Projects</h2>
         <ul>
             <li>
+                <strong>Home Lab Development:</strong>
+                <p>Designed and implemented a fully functional home lab environment to simulate enterprise-grade IT setups for learning and testing purposes.</p>
+                <img src="assets/images/home-lab.jpg" alt="Home Lab" class="project-image">
+            </li>
+            <li>
                 <strong>Secure Web Server Deployment:</strong>
                 <p>Built and managed a secure web server using Linux, implementing firewalls and SSL encryption.</p>
                 <img src="assets/images/server-deployment.jpg" alt="Server Deployment" class="project-image">
-            </li>
-            <li>
-                <strong>Portfolio Website:</strong>
-                <p>Designed and developed this website using Jekyll to showcase my skills and projects.</p>
-                <img src="assets/images/portfolio.jpg" alt="Portfolio" class="project-image">
             </li>
             <li>
                 <strong>Network Security Audit:</strong>
@@ -54,7 +145,7 @@
         <ul>
             <li>Cybersecurity</li>
             <li>Linux & Server Management</li>
-            <li>Web Development (Jekyll, HTML, CSS)</li>
+            <li>Tools: Wazuh, Firewalls, SIEM Systems</li>
             <li>Networking & Security Audits</li>
             <li>Problem-Solving & Critical Thinking</li>
         </ul>
@@ -64,9 +155,9 @@
         <h2>Contact</h2>
         <p>Feel free to reach out to me for opportunities or collaborations:</p>
         <ul>
-            <li>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></li>
-            <li>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></li>
+            <li>Email: <a href="mailto:jordan.vanderburg@example.com">jordan.vanderburg@example.com</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/jordanvanderburg">linkedin.com/in/jordanvanderburg</a></li>
+            <li>GitHub: <a href="https://github.com/nofishing1">github.com/nofishing1</a></li>
         </ul>
     </section>
 
